@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="cannonblock" path="/" reloadable="true">
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
+		maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/nyagaoh"
+		password="" type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost:3306/nyagaoh?autoReconnect=true"
+		username="root" />
+
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
+		maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/nyagaoh_slave1"
+		password="" type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost:3306/nyagaoh?autoReconnect=true"
+		username="root" />
+
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
+		maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/nyagaoh_slave2"
+		password="" type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost:3306/nyagaoh?autoReconnect=true"
+		username="root" />
+
+	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
+		maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/nyagaoh_slave3"
+		password="" type="javax.sql.DataSource"
+		url="jdbc:mysql://localhost:3306/nyagaoh?autoReconnect=true"
+		username="root" />
+
+</Context>
